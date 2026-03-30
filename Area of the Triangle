@@ -1,0 +1,44 @@
+import math
+n=int(input("Enter the number of parameters"))
+if(n==2):
+b=int(input("Enter the breath of the triangle"))
+h=int(input("Enter the height of the triangle"))
+if(b<0 or h<0):
+print"Not a correct parameter"
+else:
+area=0.5*b*h
+print"The area of triangle",area
+elif(n==3):
+x=int(input("Enter the side1:"))
+y=int(input("Enter the side2:"))
+z=int(input("Enter the side3:"))
+if(x<0 or y<0 or z<0):
+print"Enter correct values:"
+else:
+s=(x+y+z)/2
+a=math.sqrt(s*(s-x)*(s-y)*(s-z))
+print"The area is:",a
+else:
+print"Enter the valid parameters"
+import math
+n=int(input("Enter the number of parameters"))
+if(n==2):
+b=int(input("Enter the breath of the triangle"))
+h=int(input("Enter the height of the triangle"))
+if(b<0 or h<0):
+print"Not a correct parameter"
+else:
+area=0.5*b*h
+print"The area of triangle",area
+elif(n==3):
+x=int(input("Enter the side1:"))
+y=int(input("Enter the side2:"))
+z=int(input("Enter the side3:"))
+if(x<0 or y<0 or z<0):
+print"Enter correct values:"
+else:
+s=(x+y+z)/2
+a=math.sqrt(s*(s-x)*(s-y)*(s-z))
+print"The area is:",a
+else:
+print"Enter the valid parameters"
