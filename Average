@@ -1,0 +1,20 @@
+a=float(input("m1="))
+b=float(input("m2="))
+c=float(input("m3="))
+d=float(input("m4="))
+e=float(input("m5="))
+M=(a+b+c+d+e)/5
+if(M>=90):
+print "average=",M,"grade=O"
+elif(M>=80 and M<=89):
+print "average=",M,"grade=A+"
+elif(M>=70 and M<=79):
+print "average=",M,"grade=A"
+elif(M>=60 and M<=69):
+print "average=",M,"grade=B+"
+elif(M>=55 and M<=59):
+print "average=",M,"grade=B"
+elif(M>=50 and M<=54):
+print "average=",M,"grade=C"
+else:
+print "average=",M,"FAIL"
