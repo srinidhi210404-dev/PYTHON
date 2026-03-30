@@ -1,0 +1,10 @@
+p=float(input("Enter the principle amount:"))
+n=int(input("enter the number of years:"))
+r=int(input("rate of interest in % "))
+N=float(input("enter the compound frequency "))
+S=(p*n*r)/100
+print"S.I=",S
+a=N*n
+amount=p*(1+(r)/(100*N))**a
+c=amount-p
+print"C.I=",c
