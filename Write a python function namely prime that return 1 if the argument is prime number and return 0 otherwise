@@ -1,0 +1,9 @@
+def prime(x):
+for i in range (2,x):
+if(x%i)==0:
+print "not a prime number"
+return 0
+print "prime number"
+return 1
+a=int(input())
+prime(a)
