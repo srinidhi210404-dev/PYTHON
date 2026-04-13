@@ -1,0 +1,25 @@
+list1 = [10,20,30]
+list2= [30, 40, 50]
+def empty(l1, l2):
+if not l1:
+print("List One is empty.")
+if not l2:
+print("List Two is empty.")
+def common(l1, l2):
+return any(item in l2 for item in l1)
+def remove(list):
+re = input( "Which item would you like to remove? ")
+if re in list:
+list.remove(re)
+print "Removed! New list: ",list
+else:
+print "That item isn't in the list."
+empty(list1, list2)
+print "Common items found: ",common(list1, list2)
+remove(list1)
+list3= []
+for a in list1:
+for b in list2:
+if (a + b) > 40:
+list3.append(a + b)
+print "List of sums > 40: ",list3
