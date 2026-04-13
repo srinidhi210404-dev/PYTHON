@@ -1,0 +1,11 @@
+def max(a,b,c):
+if (a > b and a > C):
+print a,"is maximum"
+elif(b>c):
+print b,"is maximum"
+else:
+print c,"is maximum"
+n=int(input("a="))
+m=int(input("b="))
+l=int(input("c="))
+max(n,m,l)
