@@ -1,0 +1,8 @@
+def power(a,b):
+if(b<=0):
+print "power is less than zero"
+else:
+print a**b
+a=int(input("base="))
+b=int(input("power="))
+power(a,b)
