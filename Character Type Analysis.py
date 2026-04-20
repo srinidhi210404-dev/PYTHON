@@ -1,0 +1,11 @@
+s = raw_input("string ")
+digits = 0
+alphabets = 0
+spaces = 0
+for ch in s:
+    if ch.isdigit():
+        digits = digits + 1
+    elif ch.isalpha():
+        alphabets = alphabets + 1
+    elif ch.isspace():
+        spaces = spaces + 1
